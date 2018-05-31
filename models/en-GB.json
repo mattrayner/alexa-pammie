@@ -1,0 +1,40 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "pammie",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "SayLoveIntent",
+          "slots": [],
+          "samples": [
+            "how much she means to me",
+            "she is the best",
+            "she's the best",
+            "i love her"
+          ]
+        },
+        {
+          "name": "AskLoveIntent",
+          "slots": [],
+          "samples": [
+            "who is her favourite",
+            "who she loves"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}

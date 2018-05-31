@@ -1,0 +1,48 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-GB": {
+          "summary": "Tell Pammie you love her.",
+          "examplePhrases": [
+            "Alexa, tell Pammie I love her.",
+            "Alexa, ask Pammie who she loves.",
+            "Alexa, open Pammie."
+          ],
+          "keywords": [
+            "personal", "love", "pammie"
+          ],
+          "name": "Pammie",
+          "description": "Tell Pammie you love her, and find out what she loves.",
+          "smallIconUri": "https://raw.githubusercontent.com/mattrayner/alexa-parliament/master/img/logo_108.png",
+          "largeIconUri": "https://raw.githubusercontent.com/mattrayner/alexa-parliament/master/img/logo_512.png"
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "",
+      "category": "STREAMING_SERVICE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "sourceDir": "lambda"
+        },
+        "interfaces": [
+          {
+            "type": "AUDIO_PLAYER"
+          }
+        ]
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "isExportCompliant": true,
+      "containsAds": false,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
+    }
+  }
+}
